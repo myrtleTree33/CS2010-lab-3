@@ -1,0 +1,17 @@
+Test Harness - Lab 3
+====================================
+
+Tests were manually deployed, and not using junit.
+
+To generate the package, execute `mvn install` from the root directory.
+
+The JAR has been included such that code can be run well.
+
+
+in1.txt - Tests for passing of normal base case.
+in2.txt - Test for operation under relatively large dataset of 200.
+in3.txt - Test for normal condition when m == k
+in4.txt - Test for normal operation when both 0
+in5.txt - Test when m - 1 == k, which should report error
+in6.txt - Test for no salaries returned when k == 0
+in7.txt - Test for error returned when m < k substantially
